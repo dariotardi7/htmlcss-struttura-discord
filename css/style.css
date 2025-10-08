@@ -4,3 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Layout*/
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* DEBUG */
+    border: 2px solid black;
+}
+ 
+header {
+    background-color: lightblue;
+}
