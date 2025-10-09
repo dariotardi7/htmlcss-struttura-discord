@@ -92,15 +92,25 @@ header ul .flex {
     border: 1px solid green;
 }
 
-.large {
+.col-70 {
+    width: 70%;
+    background-color: lightgreen;
+    min-height: 300px;
+}
+
+.col-30 {
     width: 30%;
+    background-color: azure;
+    min-height: 300px;
 }
 
-.small {
-    width: calc(70% / 4);
+.col-25 {
+    width: 25%;
+    background-color: bisque;
+    min-height: 300px;
 }
-
 /* Footer */
 footer {
     background-color: rgb(20, 20, 20);
 }
+
