@@ -86,3 +86,21 @@ header ul .flex {
     min-height: 300px;
 }
 
+.large,
+.small {
+    min-height: 200px;
+    border: 1px solid green;
+}
+
+.large {
+    width: 30%;
+}
+
+.small {
+    width: calc(70% / 4);
+}
+
+/* Footer */
+footer {
+    background-color: rgb(20, 20, 20);
+}
