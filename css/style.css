@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
 /*Layout*/
 .container {
     width: 80%;
@@ -13,7 +17,72 @@
     /* DEBUG */
     border: 2px solid black;
 }
+
+.col-60 {
+    width: 60%;
+    background-color: rgb(27, 99, 200);
+    min-height: 300px;
+}
+
+.col-40 {
+    width: 40%;
+    background-color: pink;
+    min-height: 300px;
+}
+
+/* Utilities */
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bg-gray {
+    background-color: lightgray;
+}
  
+/*Header*/
 header {
+    display: flex;
+    align-items: center;
+    height: 80px;
     background-color: lightblue;
 }
+
+.header-logo
+.header-action {
+    width: 20%;
+}
+
+.header-action {
+    text-align: right;
+}
+
+
+header ul .flex {
+    gap: 20px;
+}
+
+/* Main */
+/* Hero section */
+.hero-section {
+    background-color: blue;
+    padding: 40px;
+}
+
+.hero-content {
+    background-color: pink;
+    width: 70%;
+    max-width: 700px;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
