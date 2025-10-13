@@ -74,6 +74,7 @@ body {
     padding: 8px 12px;
     border-radius: 30px;
     background-color: gray;
+    font-size: 0.8rem;
 }
  
 .btn-light {
